@@ -1,0 +1,104 @@
+/*
+Beige: #c8b7a6
+Perriwinkle: #7d94b5
+Dusty Rose: #c29591
+Maroon Brown: #703f37
+Muted Green: #b6c199
+ */
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: #b6c199;
+    padding: 15px;
+    color: #7d94b5;
+    text-align: left; /* this works for imgs too? */
+}
+.header h1{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+h1{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.columnA {
+    float: left;
+    width: 300px;
+    height: 600px;
+    padding: 15px;
+    padding-bottom: 304px;
+    margin-top: 5px;
+    margin-right: 1px;
+    background-color: #c8b7a6;
+    color: #7d94b5;
+}
+.columnA img{
+    width: 50%;
+    height: 50%;
+    border: #7d94b5;
+    border-style: dotted;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.columnA p{
+    padding: 10px;
+    display: block;
+    float: top;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.columnB{
+    float: right;
+    padding: 15px;
+    width: 950px;
+    height: 600px;
+    background-color: #c8b7a6;
+    margin-top: 5px;
+    color: #7d94b5;
+
+}
+
+.columnB p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.display-car{
+    width: 100%;
+    background-color: #c29591;
+    margin-bottom: 10px;
+}
+.display-car img{
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+}
+.footer{
+    display: block;
+    height: 50%;
+    width: 100%;
+    margin-top: 650px;
+    padding: 5px;
+    background-color: #703f37;
+    color: white;
+}
+.footer p{
+    margin-top: 15px;
+    margin: 5px;
+    horiz-align: right;
+}
+a{
+    color: deepskyblue;
+}
+a:visited {
+    color: pink;
+}
+
+
+
