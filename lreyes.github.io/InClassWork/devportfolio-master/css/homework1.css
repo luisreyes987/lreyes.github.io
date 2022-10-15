@@ -1,0 +1,32 @@
+body{
+    background-color: #4267B2;
+}
+#Name{
+    background-color: gray;
+
+}
+.nav_menu {
+    overflow: hidden;
+    background-color: #898F9C;
+
+}
+.nav_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_menu a:hover {
+    background-color: lightblue;
+}
+.completed{
+    background-color: green;
+}
+.inprogress{
+    background-color: yellow;
+}
+.tbd{
+    background-color: red;
+}
